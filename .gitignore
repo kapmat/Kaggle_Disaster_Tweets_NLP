@@ -1,0 +1,5 @@
+.venv/
+.results/
+.models/
+.predicts/
+Kaggle_Disaster_Tweets_NLP_BERT.ipynb
