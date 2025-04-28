@@ -161,7 +161,7 @@ tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
 model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=2)
 metric_name = 'f1'
 test = pd.read_csv('datasets/test.csv')
-batch_size = 2
+batch_size = 16
 model_save_name = 'disaster_tweets_BERT_model'
 
 result = final_pipeline(
